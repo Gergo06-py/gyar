@@ -3,8 +3,8 @@ var ftp = require("vinyl-ftp");
 
 var conn = new ftp({
   host: "ftpupload.net",
-  user: "epiz_33705925",
-  password: "7z1uRuRFmlp",
+  user: ".",
+  password: ".",
   parallel: 10,
   secure: true,
   secureOptions: { rejectUnauthorized: false },
